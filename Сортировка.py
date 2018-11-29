@@ -1,5 +1,5 @@
 
-def sort(n):
+def sortirovka(n):
     n=n.split()
     s=len(n)
     for i in range(0,s-1):
@@ -12,4 +12,4 @@ def sort(n):
         print(n[i])
     return n,s,k
 k=input()
-sort(k)
+sortirovka(k)
