@@ -4,8 +4,8 @@ def simple_numbers(n):
     for i in range(2,n):
         a.append(True)
     i = 2
-    j = i*i
     while i*i <= n:
+        j = i*i
         if a[i] == True:
             while j <= n:
                 a[j] = a.append(False)
