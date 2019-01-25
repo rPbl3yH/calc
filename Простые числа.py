@@ -13,6 +13,6 @@ def simple_numbers(n):
         i += 1
     for i in range(2,n):
         if a[i] == True:
-            print(i)
+            print(1,i)
 b = int(input())
 simple_numbers(b)
