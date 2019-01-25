@@ -11,8 +11,9 @@ def simple_numbers(n):
                 a[j] = a.append(False)
                 j += i
         i += 1
+    print(1)
     for i in range(2,n):
         if a[i] == True:
-            print(1,i)
+            print(i)
 b = int(input())
 simple_numbers(b)
